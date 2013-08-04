@@ -33,27 +33,23 @@
             font-size: 200%;
         }
 
-        .icon-envelope-alt {
-            color: #d44937;
-            text-decoration: none;
+        i.para-bullet {
+            font-size: 225%;
+            float: left;
+            padding: 5px;
+            color: #666666;
+        }
+
+        a i {
             font-size: 110%;
+            text-decoration: none;
+            padding: 0 5px;
         }
 
-        a:hover.icon-envelope-alt {
-            color: #ad3e2f;
+        a:hover i {
             text-decoration: none;
         }
 
-        .icon-linkedin {
-            color: #0073b2;
-            text-decoration: none;
-            font-size: 110%;
-        }
-
-        a:hover.icon-linkedin {
-            color: #005c8f;
-            text-decoration: none;
-        }
     </style>
 </head>
 <body>
@@ -79,18 +75,20 @@
         <div class="panel-heading">About Me</div>
         <div class="about">
             <p>
+                <i class="icon-laptop para-bullet"></i>
                 I'm a software engineer living and working in the Atlanta, GA area. My professional
                 focus has mostly been in a mix of C# and Java, but I have worked many languages, framework, and tools in my
                 10+ years of software developement.
             </p>
 
             <p>
-                I am a bit of a beer snob (I've earned my bachelors degree from the Taco Mac Brewniversity), and brew my
-                own beer on occasion.
+                <i class="icon-home para-bullet"></i>I spend most of my weekends hanging out with my wife Christy and my son Collin.
             </p>
 
             <p>
-                I spend most of my weekends hanging out with my wife Christy and my son Collin.
+                <i class="icon-beer para-bullet"></i>
+                I am a fan of beer (I've earned my bachelors degree from the Taco Mac Brewniversity), and brew my
+                own beer on occasion.
             </p>
         </div>
     </div>
@@ -98,8 +96,8 @@
     <div id="contact" class="panel">
         <div class="panel-heading">Contact Me</div>
         <p>
-            You can contact me at <a href="mailto:cory@corylucas.com" class="icon-envelope-alt"></a> or connect with me on
-            <a href="http://www.linkedin.com/in/coryflucas" class="icon-linkedin"></a>.
+            You can contact me at <a href="mailto:cory@corylucas.com"><i class="icon-envelope"></i></a> or connect with me on
+            <a href="http://www.linkedin.com/in/coryflucas"><i class="icon-linkedin"></i></a>.
         </p>
     </div>
 
