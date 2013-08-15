@@ -1,0 +1,17 @@
+footer {
+    text-align: center;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.container {
+    margin: 10px;
+}
+
+@media (min-width: 768px) {
+    .container {
+        margin: 25px 0;
+    }
+}

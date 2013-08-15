@@ -1,73 +1,70 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Cory Lucas DOT Com</title>
+    <title>Cory Lucas DOT Com | Home</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link rel="stylesheet" href="css/site.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <!--[if lt IE 8]>
     <link rel="stylesheet" href="css/font-awesome-ie7.min.css">
     <![endif]-->
 
     <style>
-        p {
-            padding: 0 0 15px;
+        .container {
+            font-size: 14pt;
         }
 
         div.about {
-            min-height: 220px;
-            padding-left: 242px;
-            background-image: url('images/avatar.png');
+            min-height: 110px;
+            padding-left: 129px;
+            background-image: url('images/avatar-small.png');
             background-repeat: no-repeat;
         }
 
-        @media (max-width: 768px) {
+        @media (min-width: 768px) {
             div.about {
-                min-height: 110px;
-                padding-left: 129px;
-                background-image: url('images/avatar-small.png');
+                min-height: 220px;
+                padding-left: 242px;
+                background-image: url('images/avatar.png');
             }
         }
-
-        footer {
-            text-align: center;
-        }
-
-        div.container p {
-            font-size: 125%;
-        }
-
-        div.panel-heading {
-            font-size: 200%;
-        }
-
-        i.para-bullet {
-            font-size: 225%;
-            float: left;
-            padding: 5px;
-            color: #666666;
-        }
-
-        a:hover {
-            text-decoration: none;
-        }
-
     </style>
 </head>
 <body>
 
-<div class="container content">
-    <div class="about panel-body">
-        <p>
-            I'm a software engineer in the Atlanta, GA area specializing in <strong>Java</strong> and
-            <strong>C#</strong> enterprise applications.
-        </p>
-        
-        <p>
-            You can <a href="mailto:cory@corylucas.com"><i class="icon-envelope"></i> Email Me</a>, connect
-            with me on my <a href="http://www.linkedin.com/in/coryflucas"><i class="icon-linkedin"></i> LinkedIn Page</a>, Or view my
-            <a href="resume.html"><i class="icon-file-text"></i> R&eacute;sum&eacute;</a>.
-        </p>
+<div class="container">
+    <div class="about">
+        <div class="grid">
+            <div class="row">
+                <div class="col-md-12">
+                    I'm a software engineer in the Atlanta, GA area specializing in <strong>Java</strong> and
+                    <strong>C#</strong> enterprise applications.
+                </div>
+            </div>
+            <br/>
+
+            <div class="row" style="text-align: center">
+                <div class="col-md-12">
+                    <h3>Want to get in touch or learn more?</h3></div>
+            </div>
+            <div class="row" style="text-align: center">
+                <div class="col-md-6">
+                    Send me an <i class="icon-envelope"></i> <a href="mailto:cory@corylucas.com">Email</a>.
+                </div>
+                <div class="col-md-6">
+                    Fork me on <i class="icon-github"></i> <a href="https://github.com/coryflucas/">Github</a>.
+                </div>
+                <div class="col-md-6">
+                    Connect on <i class="icon-linkedin"></i> <a
+                        href="http://www.linkedin.com/in/coryflucas">LinkedIn</a>.
+                </div>
+                <div class="col-md-6">View my <i class="icon-file-text"></i> <a
+                        href="resume.html">R&eacute;sum&eacute;</a>.
+                </div>
+            </div>
+            </p>
+        </div>
     </div>
 </div>
 
