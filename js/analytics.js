@@ -3,3 +3,4 @@
 ga('create', 'UA-43160335-1', 'corylucas.com');
 ga('send', 'pageview');
 
+$('a').click(function(){ga('send', 'event', 'link', 'click', $(this).text()); return true})
